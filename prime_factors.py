@@ -1,2 +1,4 @@
 class Prime:
-    pass
+    def of(self, n) -> list:
+        factors = []
+        return factors
