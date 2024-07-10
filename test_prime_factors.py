@@ -11,7 +11,8 @@ class TestPrime(TestCase):
         testcases = [
             (1, []),
             (2, [2]),
-            (3, [3])
+            (3, [3]),
+            (4, [2, 2])
         ]
 
         for case in testcases:
