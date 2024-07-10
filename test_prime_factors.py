@@ -12,7 +12,9 @@ class TestPrime(TestCase):
             (1, []),
             (2, [2]),
             (3, [3]),
-            (4, [2, 2])
+            (4, [2, 2]),
+            (5, [5]),
+            (6, [2, 3])
         ]
 
         for case in testcases:
