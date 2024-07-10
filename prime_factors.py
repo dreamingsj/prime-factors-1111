@@ -1,15 +1,11 @@
 class Prime:
     def of(self, number) -> list:
         factors = []
-        if number > 1:
-            if number == 4:
-                while number % 2 == 0:
-                    factors.append(2)
-                    number /= 2
-            elif number == 6:
-                factors.append(2)
-                factors.append(3)
-            else:
-                factors.append(number)
+        divisor = 2
+        while number > 1:
+            while number % divisor == 0:
+                factors.append(divisor)
+                number /= divisor
+            divisor += 1
         return factors
 
