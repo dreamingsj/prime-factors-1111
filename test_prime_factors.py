@@ -8,7 +8,7 @@ class TestPrime(TestCase):
         prime = Prime()
         testcases = [
             (1, []),
-            # (2, [2]),
+            (2, [2]),
             # (3, [3])
         ]
 

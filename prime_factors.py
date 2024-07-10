@@ -1,4 +1,6 @@
 class Prime:
-    def of(self, n) -> list:
+    def of(self, number) -> list:
         factors = []
+        if number == 2:
+            factors.append(2)
         return factors
